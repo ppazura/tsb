@@ -17,3 +17,4 @@ export const getTypeAliasProperties = (text: string): string[] => {
     // Remove extra whitespace
     properties = properties.map(p => p.trim())
     return properties
+  }

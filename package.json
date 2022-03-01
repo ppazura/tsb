@@ -1,0 +1,22 @@
+{
+  "name": "tsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node ./bin/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "tsb": "./bin/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "yargs": "13.2",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
